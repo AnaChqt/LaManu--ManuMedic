@@ -1,0 +1,31 @@
+.card_title{
+    background-color: #1A4867;
+}
+
+.card{
+    background-color: #2EAADD;
+    border-color: #1A4867;
+    width: auto;
+    box-shadow: 0 0 10px 0  #1A4867;
+}
+
+.profil{
+    color: #1A4867 !important;
+}
+
+.modif{
+    font-size: 10px;
+}
+
+p{
+    line-height: 1rem;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+h2{
+    color: #2EAADD;
+}

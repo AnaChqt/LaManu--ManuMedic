@@ -1,0 +1,19 @@
+thead{
+    background-color: #1A4867;
+    color: white;
+}
+
+tbody{
+    background-color: #2EAADD;
+    color: white;
+    text-align: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.table-responsive{
+    border-color: #1A4867;
+}

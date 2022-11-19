@@ -1,0 +1,42 @@
+.card {
+    padding: 1rem;
+    width:auto;
+    height: auto;
+    background-color: #2EAADD;
+    border-color: #1A4867;
+    box-shadow: 0 0 10px 0  #1A4867;
+}
+
+.btn{
+    background-color: #1A4867;
+    color: white;
+    border-radius: 15px;
+    border-color: #1A4867;
+}
+
+.btn:hover {
+    color: #2EAADD;
+}
+
+button:focus {
+    box-shadow: none !important;
+}
+
+.erreur{
+    text-align: center;
+    margin-top: 1rem;
+    color: white;
+    font-weight: bold;
+}
+
+.success{
+    color: green;
+}
+
+.warning{
+    color: orange;
+}
+
+.error{
+    color: red;
+}

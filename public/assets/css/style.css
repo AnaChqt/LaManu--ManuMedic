@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+
+body{
+    background-color: white;
+    font-family: 'Noto Sans Mono', monospace;
+    padding-bottom: 5rem;
+}
+h1{
+    font-weight: bold;
+}
+
+.navbar, .fixed-bottom{
+    background: #2EAADD;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+
+.nav-link:hover, .navbar-brand, h1{
+    color: #1A4867 !important;
+}
+
+.navbar-collapse{
+    justify-content: center;
+}
+
+.btn{
+    background-color: #1A4867;
+    color: white;
+    border-radius: 10px;
+    border-color: #1A4867;
+}
+
+.btn:hover {
+    color: #2EAADD;
+}
+
+button:focus {
+    box-shadow: none !important;
+}
+
+@media screen and (max-width: 991px) {
+    img {
+        width: 95%;
+        height: 95%;
+    }
+    .rowHP{
+        padding-top: 8rem;
+    }
+}

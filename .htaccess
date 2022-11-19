@@ -1,0 +1,47 @@
+# On active le moteur de réécriture d'URL
+RewriteEngine On
+
+# URL REWRITING NAVBAR
+    # Régle de réécriture page d'accueil
+    RewriteRule ^accueil$ controllers/homePageController.php [L]
+
+    # Régle de réécriture page ajout patient
+    RewriteRule ^ajout-patient$ controllers/addPatientController.php [L]
+
+    # Régle de réécriture page liste patient
+    RewriteRule ^liste-patient$ controllers/listPatientController.php [L]
+
+    # Régle de réécriture page ajout d'un rendez-vous
+    RewriteRule ^ajout-RDV$ controllers/addAppointmentController.php [L]
+
+    # Régle de réécriture page liste des rendez-vous
+    RewriteRule ^liste-RDV$ controllers/listApptController.php [L]
+
+    # Régle de réécriture page ajout d'un patient et d'un rendez-vous
+    RewriteRule ^ajout-patient-RDV$ controllers/addPatientApptController.php [L]
+
+
+# URL REWRITING PAGE "LISTE DES PATIENTS"
+    # Régle de réécriture vers la page profil patient
+    RewriteRule ^profil-patient$ controllers/profilPatientController.php [L]
+
+    # Régle de réécriture vers la page delete patient et rendez-vous
+    RewriteRule ^supprimer-patient-RDV$ controllers/deletePatientController.php [L]
+
+
+# URL REWRITING PAGE "PROFIL PATIENT"
+    # Régle de réécriture page modif les informations
+    RewriteRule ^modifier-patient$ controllers/modifPatientController.php [L]
+
+
+# URL REWRITING PAGE "LISTE PATIENT ET RDV"
+    # Régle de réécriture page profil rendez-vous
+    RewriteRule ^profil-RDV$ controllers/profilApptController.php [L]
+
+    # Régle de réécriture page delete rendez-vous
+    RewriteRule ^supprimer-RDV$ controllers/deleteController.php [L]
+
+
+# URL REWRITING PAGE "PROFIL PATIENT ET RDV"
+    # Régle de réécriture page modifier rendez-vous
+    RewriteRule ^modifier-RDV$ controllers/modifApptController.php [L]
